@@ -1,0 +1,471 @@
+{
+  "window": {
+    "title": "Dune 2 Clone",
+    "width": 1280,
+    "height": 800,
+    "min_width": 1024,
+    "min_height": 600,
+    "resizable": true,
+    "fullscreen": false,
+    "vsync": true,
+    "fps_cap": 60
+  },
+  "map": {
+    "width": 64,
+    "height": 64,
+    "tile_size": 32,
+    "default_map": "assets/maps/default.json"
+  },
+  "camera": {
+    "scroll_speed": 500,
+    "edge_scroll_margin": 20,
+    "edge_scroll_speed": 400,
+    "zoom_min": 0.5,
+    "zoom_max": 2.0,
+    "zoom_step": 0.1
+  },
+  "sidebar": {
+    "width": 220
+  },
+  "minimap": {
+    "width": 200,
+    "height": 200
+  },
+  "gameplay": {
+    "starting_credits": 5000,
+    "tick_rate": 30,
+    "ai_decision_interval_ticks": 60,
+    "spice_per_tile_min": 500,
+    "spice_per_tile_max": 3000,
+    "thick_spice_multiplier": 2.0,
+    "win_condition": "destroy_all_buildings"
+  },
+  "houses": {
+    "atreides": {
+      "name": "House Atreides",
+      "color": [
+        0,
+        100,
+        200
+      ],
+      "color_light": [
+        50,
+        150,
+        255
+      ],
+      "color_dark": [
+        0,
+        60,
+        130
+      ]
+    },
+    "harkonnen": {
+      "name": "House Harkonnen",
+      "color": [
+        200,
+        30,
+        30
+      ],
+      "color_light": [
+        255,
+        80,
+        80
+      ],
+      "color_dark": [
+        130,
+        10,
+        10
+      ]
+    }
+  },
+  "terrain_colors": {
+    "sand": [
+      210,
+      180,
+      120
+    ],
+    "rock": [
+      130,
+      110,
+      90
+    ],
+    "dunes": [
+      230,
+      200,
+      130
+    ],
+    "spice": [
+      200,
+      140,
+      60
+    ],
+    "thick_spice": [
+      180,
+      100,
+      30
+    ],
+    "mountain": [
+      80,
+      70,
+      60
+    ]
+  },
+  "units": {
+    "soldier": {
+      "name": "Soldier",
+      "cost": 60,
+      "build_time": 3.0,
+      "health": 100,
+      "speed": 60,
+      "attack_damage": 8,
+      "attack_range": 2,
+      "attack_cooldown": 1.0,
+      "size": 12,
+      "category": "infantry"
+    },
+    "harvester": {
+      "name": "Harvester",
+      "cost": 500,
+      "build_time": 10.0,
+      "health": 500,
+      "speed": 40,
+      "attack_damage": 0,
+      "attack_range": 0,
+      "attack_cooldown": 0,
+      "capacity": 1500,
+      "harvest_rate": 50,
+      "size": 24,
+      "category": "support"
+    },
+    "mcv": {
+      "name": "MCV",
+      "cost": 1000,
+      "build_time": 15.0,
+      "health": 800,
+      "speed": 30,
+      "attack_damage": 0,
+      "attack_range": 0,
+      "attack_cooldown": 0,
+      "size": 28,
+      "category": "support"
+    },
+    "trike": {
+      "name": "Trike",
+      "cost": 150,
+      "build_time": 4.0,
+      "health": 120,
+      "speed": 115,
+      "attack_damage": 12,
+      "attack_range": 3,
+      "attack_cooldown": 0.6,
+      "size": 18,
+      "category": "vehicle"
+    },
+    "quad": {
+      "name": "Quad",
+      "cost": 250,
+      "build_time": 5.0,
+      "health": 200,
+      "speed": 95,
+      "attack_damage": 20,
+      "attack_range": 3,
+      "attack_cooldown": 0.8,
+      "size": 20,
+      "category": "vehicle"
+    },
+    "tank": {
+      "name": "Tank",
+      "cost": 600,
+      "build_time": 8.0,
+      "health": 520,
+      "speed": 50,
+      "attack_damage": 45,
+      "attack_range": 4,
+      "attack_cooldown": 1.5,
+      "size": 26,
+      "category": "vehicle"
+    },
+    "rocket_launcher": {
+      "name": "Rocket Launcher",
+      "cost": 800,
+      "build_time": 10.0,
+      "health": 260,
+      "speed": 42,
+      "attack_damage": 80,
+      "attack_range": 7,
+      "attack_cooldown": 2.6,
+      "splash": 1.4,
+      "size": 24,
+      "category": "vehicle"
+    },
+    "sniper": {
+      "name": "Sniper",
+      "cost": 150,
+      "build_time": 5.0,
+      "health": 70,
+      "speed": 58,
+      "attack_damage": 55,
+      "attack_range": 6,
+      "attack_cooldown": 2.0,
+      "size": 12,
+      "category": "infantry"
+    },
+    "helicopter": {
+      "name": "Helicopter",
+      "cost": 700,
+      "build_time": 9.0,
+      "health": 300,
+      "speed": 125,
+      "attack_damage": 32,
+      "attack_range": 4,
+      "attack_cooldown": 1.0,
+      "flying": true,
+      "size": 26,
+      "category": "air"
+    },
+    "jet_fighter": {
+      "name": "Jet Fighter",
+      "cost": 900,
+      "build_time": 10.0,
+      "health": 200,
+      "speed": 200,
+      "attack_damage": 48,
+      "attack_range": 4,
+      "attack_cooldown": 1.2,
+      "flying": true,
+      "size": 24,
+      "category": "air"
+    },
+    "bomber": {
+      "name": "Bomber",
+      "cost": 1200,
+      "build_time": 12.0,
+      "health": 360,
+      "speed": 150,
+      "attack_damage": 95,
+      "attack_range": 3,
+      "attack_cooldown": 3.0,
+      "splash": 1.8,
+      "flying": true,
+      "size": 30,
+      "category": "air"
+    }
+  },
+  "buildings": {
+    "construction_yard": {
+      "name": "Construction Yard",
+      "cost": 0,
+      "build_time": 0,
+      "health": 1500,
+      "power": 0,
+      "size_tiles": [
+        3,
+        3
+      ],
+      "produces": [
+        "barracks",
+        "refinery",
+        "solar_plant",
+        "light_factory",
+        "heavy_factory",
+        "hi_tech",
+        "airfield",
+        "gun_turret"
+      ]
+    },
+    "barracks": {
+      "name": "Barracks",
+      "cost": 400,
+      "build_time": 10.0,
+      "health": 800,
+      "power": -10,
+      "size_tiles": [
+        2,
+        2
+      ],
+      "produces": [
+        "soldier",
+        "sniper"
+      ]
+    },
+    "refinery": {
+      "name": "Refinery",
+      "cost": 1500,
+      "build_time": 15.0,
+      "health": 1000,
+      "power": -30,
+      "size_tiles": [
+        3,
+        2
+      ],
+      "storage": 2000,
+      "produces": [
+        "harvester"
+      ]
+    },
+    "solar_plant": {
+      "name": "Solar Plant",
+      "cost": 500,
+      "build_time": 8.0,
+      "health": 500,
+      "power": 50,
+      "size_tiles": [
+        2,
+        2
+      ],
+      "produces": []
+    },
+    "heavy_factory": {
+      "name": "Heavy Factory",
+      "cost": 2000,
+      "build_time": 20.0,
+      "health": 1000,
+      "power": -30,
+      "size_tiles": [
+        3,
+        3
+      ],
+      "produces": [
+        "harvester",
+        "mcv",
+        "tank",
+        "rocket_launcher"
+      ]
+    },
+    "gun_turret": {
+      "name": "Gun Turret",
+      "cost": 600,
+      "build_time": 8.0,
+      "health": 600,
+      "power": -20,
+      "size_tiles": [
+        2,
+        2
+      ],
+      "produces": [],
+      "attack_damage": 25,
+      "attack_range": 5,
+      "attack_cooldown": 1.2
+    },
+    "light_factory": {
+      "name": "Light Factory",
+      "cost": 800,
+      "build_time": 14.0,
+      "health": 800,
+      "power": -20,
+      "size_tiles": [
+        3,
+        2
+      ],
+      "produces": [
+        "trike",
+        "quad"
+      ]
+    },
+    "hi_tech": {
+      "name": "Hi-Tech Factory",
+      "cost": 1500,
+      "build_time": 16.0,
+      "health": 700,
+      "power": -40,
+      "size_tiles": [
+        2,
+        2
+      ],
+      "produces": [
+        "helicopter"
+      ]
+    },
+    "airfield": {
+      "name": "Airfield",
+      "cost": 1800,
+      "build_time": 18.0,
+      "health": 800,
+      "power": -40,
+      "size_tiles": [
+        3,
+        2
+      ],
+      "produces": [
+        "jet_fighter",
+        "bomber"
+      ]
+    }
+  },
+  "keybindings": {
+    "_comment": "AZERTY-friendly: ZQSD for movement, also arrow keys work",
+    "scroll_up": [
+      "z",
+      "Up"
+    ],
+    "scroll_down": [
+      "s",
+      "Down"
+    ],
+    "scroll_left": [
+      "q",
+      "Left"
+    ],
+    "scroll_right": [
+      "d",
+      "Right"
+    ],
+    "escape": [
+      "Escape"
+    ],
+    "help": [
+      "h"
+    ],
+    "select_all": [
+      "a"
+    ],
+    "stop": [
+      "x"
+    ],
+    "attack_move": [
+      "a"
+    ],
+    "patrol": [
+      "p"
+    ],
+    "group_1": [
+      "1"
+    ],
+    "group_2": [
+      "2"
+    ],
+    "group_3": [
+      "3"
+    ],
+    "group_4": [
+      "4"
+    ],
+    "group_5": [
+      "5"
+    ],
+    "zoom_in": [
+      "="
+    ],
+    "zoom_out": [
+      "-"
+    ],
+    "center_base": [
+      "space"
+    ],
+    "toggle_minimap": [
+      "m"
+    ],
+    "quick_save": [
+      "F5"
+    ],
+    "quick_load": [
+      "F9"
+    ]
+  },
+  "paths": {
+    "assets": "assets",
+    "textures": "assets/textures",
+    "maps": "assets/maps",
+    "saves": "saves"
+  }
+}

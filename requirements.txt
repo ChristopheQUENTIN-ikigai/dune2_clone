@@ -1,0 +1,3 @@
+arcade>=3.0.0,<4.0.0
+# Optional: enables the SWI-Prolog AI. Without it, a built-in Python AI is used.
+janus-swi>=1.2.0; platform_system != "Windows"

@@ -1,0 +1,15 @@
+main.py", line 97, in on_mouse_drag
+    self.scene_manager.current.on_mouse_drag(x, y, dx, dy, buttons, modifiers)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UnitEditorScene' object has no attribute 'on_mouse_drag'. Did you mean: 'on_mouse_press'?
+
+
+
+/home/superman/.local/lib/python3.11/site-packages/arcade/exceptions.py:138: PerformanceWarning: draw_text is an extremely slow function for displaying text. Consider using Text objects instead.
+  warnings.warn(message, warning_type)
+[AI] Prolog engine loaded successfully.
+
+
+
+
+

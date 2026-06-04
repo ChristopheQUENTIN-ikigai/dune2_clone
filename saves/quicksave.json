@@ -1,0 +1,11703 @@
+{
+ "tick": 4981,
+ "next_entity_id": 40,
+ "players": {
+  "0": {
+   "player_id": 0,
+   "house": "atreides",
+   "is_ai": false,
+   "credits": 400.0,
+   "power_produced": 50,
+   "power_consumed": 170
+  },
+  "1": {
+   "player_id": 1,
+   "house": "harkonnen",
+   "is_ai": true,
+   "credits": 1400.0,
+   "power_produced": 250,
+   "power_consumed": 130
+  }
+ },
+ "entities": [
+  {
+   "entity_id": 1,
+   "owner_id": 0,
+   "health": 1220,
+   "max_health": 1500,
+   "x": 208.0,
+   "y": 1840.0,
+   "type": "building",
+   "building_type": "construction_yard",
+   "tile_x": 5,
+   "tile_y": 5,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 0.0
+  },
+  {
+   "entity_id": 2,
+   "owner_id": 0,
+   "health": 1000,
+   "max_health": 1000,
+   "x": 336.0,
+   "y": 1856.0,
+   "type": "building",
+   "building_type": "refinery",
+   "tile_x": 9,
+   "tile_y": 5,
+   "producing": "harvester",
+   "production_timer": 1.8000000000000023,
+   "production_total_time": 10.0,
+   "production_queue": [
+    "harvester",
+    "harvester"
+   ],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 0.0
+  },
+  {
+   "entity_id": 3,
+   "owner_id": 0,
+   "health": 500,
+   "max_health": 500,
+   "x": 192.0,
+   "y": 1728.0,
+   "type": "building",
+   "building_type": "solar_plant",
+   "tile_x": 5,
+   "tile_y": 9,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 0.0
+  },
+  {
+   "entity_id": 4,
+   "owner_id": 0,
+   "health": 800,
+   "max_health": 800,
+   "x": 320.0,
+   "y": 1760.0,
+   "type": "building",
+   "building_type": "barracks",
+   "tile_x": 9,
+   "tile_y": 8,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 0.0
+  },
+  {
+   "entity_id": 5,
+   "owner_id": 0,
+   "health": 500,
+   "max_health": 500,
+   "x": 912.0,
+   "y": 1424.0,
+   "type": "harvester",
+   "unit_type": "harvester",
+   "spice_carried": 213.333333333333,
+   "state": "harvesting",
+   "target_refinery_id": 2
+  },
+  {
+   "entity_id": 6,
+   "owner_id": 0,
+   "health": 100,
+   "max_health": 100,
+   "x": 240.0,
+   "y": 1722.0,
+   "type": "soldier",
+   "state": "idle"
+  },
+  {
+   "entity_id": 7,
+   "owner_id": 0,
+   "health": 100,
+   "max_health": 100,
+   "x": 240.0,
+   "y": 1722.0,
+   "type": "soldier",
+   "state": "idle"
+  },
+  {
+   "entity_id": 8,
+   "owner_id": 0,
+   "health": 100,
+   "max_health": 100,
+   "x": 240.0,
+   "y": 1722.0,
+   "type": "soldier",
+   "state": "idle"
+  },
+  {
+   "entity_id": 9,
+   "owner_id": 1,
+   "health": 1500,
+   "max_health": 1500,
+   "x": 1840.0,
+   "y": 208.0,
+   "type": "building",
+   "building_type": "construction_yard",
+   "tile_x": 56,
+   "tile_y": 56,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 0.0
+  },
+  {
+   "entity_id": 10,
+   "owner_id": 1,
+   "health": 1000,
+   "max_health": 1000,
+   "x": 1968.0,
+   "y": 224.0,
+   "type": "building",
+   "building_type": "refinery",
+   "tile_x": 60,
+   "tile_y": 56,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 0.0
+  },
+  {
+   "entity_id": 11,
+   "owner_id": 1,
+   "health": 500,
+   "max_health": 500,
+   "x": 1824.0,
+   "y": 96.0,
+   "type": "building",
+   "building_type": "solar_plant",
+   "tile_x": 56,
+   "tile_y": 60,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 0.0
+  },
+  {
+   "entity_id": 12,
+   "owner_id": 1,
+   "health": 800,
+   "max_health": 800,
+   "x": 1952.0,
+   "y": 128.0,
+   "type": "building",
+   "building_type": "barracks",
+   "tile_x": 60,
+   "tile_y": 59,
+   "producing": "soldier",
+   "production_timer": 2.1000000000000023,
+   "production_total_time": 3.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 0.0
+  },
+  {
+   "entity_id": 13,
+   "owner_id": 1,
+   "health": 500,
+   "max_health": 500,
+   "x": 2019.743482459434,
+   "y": 284.2565175405667,
+   "type": "harvester",
+   "unit_type": "harvester",
+   "spice_carried": 0,
+   "state": "harvesting",
+   "target_refinery_id": 10
+  },
+  {
+   "entity_id": 17,
+   "owner_id": 1,
+   "health": 500,
+   "max_health": 500,
+   "x": 1760.0,
+   "y": 288.0,
+   "type": "building",
+   "building_type": "solar_plant",
+   "tile_x": 54,
+   "tile_y": 54,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 8.0
+  },
+  {
+   "entity_id": 18,
+   "owner_id": 1,
+   "health": 500,
+   "max_health": 500,
+   "x": 1760.0,
+   "y": 224.0,
+   "type": "building",
+   "building_type": "solar_plant",
+   "tile_x": 54,
+   "tile_y": 56,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 8.0
+  },
+  {
+   "entity_id": 19,
+   "owner_id": 1,
+   "health": 800,
+   "max_health": 800,
+   "x": 1840.0,
+   "y": 288.0,
+   "type": "building",
+   "building_type": "light_factory",
+   "tile_x": 56,
+   "tile_y": 54,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 14.0
+  },
+  {
+   "entity_id": 20,
+   "owner_id": 1,
+   "health": 100,
+   "max_health": 100,
+   "x": 1680.0,
+   "y": 368.0,
+   "type": "soldier",
+   "state": "idle"
+  },
+  {
+   "entity_id": 21,
+   "owner_id": 1,
+   "health": 500,
+   "max_health": 500,
+   "x": 1760.0,
+   "y": 160.0,
+   "type": "building",
+   "building_type": "solar_plant",
+   "tile_x": 54,
+   "tile_y": 58,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 8.0
+  },
+  {
+   "entity_id": 22,
+   "owner_id": 1,
+   "health": 100,
+   "max_health": 100,
+   "x": 1680.0,
+   "y": 368.0,
+   "type": "soldier",
+   "state": "idle"
+  },
+  {
+   "entity_id": 23,
+   "owner_id": 1,
+   "health": 500,
+   "max_health": 500,
+   "x": 1888.0,
+   "y": 128.0,
+   "type": "building",
+   "building_type": "solar_plant",
+   "tile_x": 58,
+   "tile_y": 59,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 8.0
+  },
+  {
+   "entity_id": 24,
+   "owner_id": 1,
+   "health": 1000,
+   "max_health": 1000,
+   "x": 1936.0,
+   "y": 304.0,
+   "type": "building",
+   "building_type": "heavy_factory",
+   "tile_x": 59,
+   "tile_y": 53,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 20.0
+  },
+  {
+   "entity_id": 26,
+   "owner_id": 0,
+   "health": 800,
+   "max_health": 800,
+   "x": 528.0,
+   "y": 1568.0,
+   "type": "building",
+   "building_type": "airfield",
+   "tile_x": 15,
+   "tile_y": 14,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 18.0
+  },
+  {
+   "entity_id": 27,
+   "owner_id": 1,
+   "health": 600,
+   "max_health": 600,
+   "x": 1696.0,
+   "y": 352.0,
+   "type": "building",
+   "building_type": "gun_turret",
+   "tile_x": 52,
+   "tile_y": 52,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 8.0
+  },
+  {
+   "entity_id": 29,
+   "owner_id": 1,
+   "health": 600,
+   "max_health": 600,
+   "x": 1696.0,
+   "y": 288.0,
+   "type": "building",
+   "building_type": "gun_turret",
+   "tile_x": 52,
+   "tile_y": 54,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 8.0
+  },
+  {
+   "entity_id": 30,
+   "owner_id": 1,
+   "health": 100,
+   "max_health": 100,
+   "x": 1648.0,
+   "y": 400.0,
+   "type": "soldier",
+   "state": "idle"
+  },
+  {
+   "entity_id": 31,
+   "owner_id": 0,
+   "health": 800,
+   "max_health": 800,
+   "x": 592.0,
+   "y": 1312.0,
+   "type": "building",
+   "building_type": "light_factory",
+   "tile_x": 17,
+   "tile_y": 22,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 14.0
+  },
+  {
+   "entity_id": 32,
+   "owner_id": 1,
+   "health": 100,
+   "max_health": 100,
+   "x": 1648.0,
+   "y": 400.0,
+   "type": "soldier",
+   "state": "idle"
+  },
+  {
+   "entity_id": 33,
+   "owner_id": 0,
+   "health": 1000,
+   "max_health": 1000,
+   "x": 752.0,
+   "y": 1296.0,
+   "type": "building",
+   "building_type": "heavy_factory",
+   "tile_x": 22,
+   "tile_y": 22,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 20.0
+  },
+  {
+   "entity_id": 34,
+   "owner_id": 1,
+   "health": 100,
+   "max_health": 100,
+   "x": 1648.0,
+   "y": 400.0,
+   "type": "soldier",
+   "state": "idle"
+  },
+  {
+   "entity_id": 35,
+   "owner_id": 1,
+   "health": 100,
+   "max_health": 100,
+   "x": 1648.0,
+   "y": 400.0,
+   "type": "soldier",
+   "state": "idle"
+  },
+  {
+   "entity_id": 36,
+   "owner_id": 0,
+   "health": 700,
+   "max_health": 700,
+   "x": 576.0,
+   "y": 1184.0,
+   "type": "building",
+   "building_type": "hi_tech",
+   "tile_x": 17,
+   "tile_y": 26,
+   "producing": null,
+   "production_timer": 0.0,
+   "production_total_time": 0.0,
+   "production_queue": [],
+   "built": true,
+   "construction_timer": 0.0,
+   "construction_total_time": 16.0
+  },
+  {
+   "entity_id": 37,
+   "owner_id": 0,
+   "health": 500,
+   "max_health": 500,
+   "x": 537.4280904158206,
+   "y": 1446.57190958418,
+   "type": "harvester",
+   "unit_type": "harvester",
+   "spice_carried": 0.0,
+   "state": "harvesting",
+   "target_refinery_id": -1
+  },
+  {
+   "entity_id": 38,
+   "owner_id": 1,
+   "health": 100,
+   "max_health": 100,
+   "x": 1904.0,
+   "y": 80.0,
+   "type": "soldier",
+   "state": "idle"
+  },
+  {
+   "entity_id": 39,
+   "owner_id": 0,
+   "health": 500,
+   "max_health": 500,
+   "x": 272.0,
+   "y": 1737.3333333333337,
+   "type": "harvester",
+   "unit_type": "harvester",
+   "spice_carried": 0.0,
+   "state": "harvesting",
+   "target_refinery_id": -1
+  }
+ ],
+ "map_tiles": [
+  {
+   "x": 35,
+   "y": 0,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 0,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 0,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 0,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 0,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 0,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 0,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 0,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 1,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 2,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 3,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 4,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 5,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 6,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 7,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 12,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 2,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 2,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 2,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 3,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 4,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 5,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 6,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 7,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 12,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 3,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 3,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 2,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 3,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 4,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 5,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 6,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 7,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 12,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 4,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 4,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 2,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 3,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 4,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 5,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 6,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 7,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 12,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 5,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 5,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 2,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 3,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 4,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 5,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 6,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 7,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 12,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 6,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 6,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 2,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 3,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 4,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 5,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 6,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 7,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 12,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 7,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 7,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 2,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 3,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 4,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 5,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 6,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 7,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 12,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 8,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 8,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 2,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 3,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 4,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 5,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 6,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 7,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 12,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 9,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 9,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 9,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 9,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 2,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 3,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 4,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 5,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 6,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 7,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 12,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 10,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 10,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 10,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 10,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 10,
+   "terrain": "spice",
+   "spice": 1979.8241179139138
+  },
+  {
+   "x": 46,
+   "y": 10,
+   "terrain": "spice",
+   "spice": 2845.31488992681
+  },
+  {
+   "x": 54,
+   "y": 10,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 2,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 3,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 4,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 5,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 6,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 7,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 12,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 11,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 11,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 11,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 11,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 11,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 11,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 11,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 11,
+   "terrain": "spice",
+   "spice": 1878.570534289103
+  },
+  {
+   "x": 43,
+   "y": 11,
+   "terrain": "spice",
+   "spice": 1928.3318431064351
+  },
+  {
+   "x": 44,
+   "y": 11,
+   "terrain": "spice",
+   "spice": 693.681698396344
+  },
+  {
+   "x": 45,
+   "y": 11,
+   "terrain": "spice",
+   "spice": 1688.8372576995382
+  },
+  {
+   "x": 46,
+   "y": 11,
+   "terrain": "spice",
+   "spice": 1057.082934563754
+  },
+  {
+   "x": 47,
+   "y": 11,
+   "terrain": "spice",
+   "spice": 2624.5388430786143
+  },
+  {
+   "x": 48,
+   "y": 11,
+   "terrain": "spice",
+   "spice": 1535.703705055965
+  },
+  {
+   "x": 18,
+   "y": 12,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 12,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 12,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 12,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 12,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 12,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 12,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 12,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 12,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 12,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 12,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 12,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 12,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 12,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 12,
+   "terrain": "spice",
+   "spice": 2401.461954442109
+  },
+  {
+   "x": 42,
+   "y": 12,
+   "terrain": "spice",
+   "spice": 1298.4185669892088
+  },
+  {
+   "x": 43,
+   "y": 12,
+   "terrain": "spice",
+   "spice": 1891.751809180376
+  },
+  {
+   "x": 44,
+   "y": 12,
+   "terrain": "spice",
+   "spice": 2080.4314639768554
+  },
+  {
+   "x": 45,
+   "y": 12,
+   "terrain": "spice",
+   "spice": 2617.7135066636133
+  },
+  {
+   "x": 46,
+   "y": 12,
+   "terrain": "spice",
+   "spice": 1549.0486435009716
+  },
+  {
+   "x": 47,
+   "y": 12,
+   "terrain": "spice",
+   "spice": 1959.8041271552245
+  },
+  {
+   "x": 48,
+   "y": 12,
+   "terrain": "spice",
+   "spice": 2239.3711230209146
+  },
+  {
+   "x": 19,
+   "y": 13,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 13,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 13,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 13,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 13,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 13,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 13,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 13,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 13,
+   "terrain": "spice",
+   "spice": 1091.6392486005707
+  },
+  {
+   "x": 42,
+   "y": 13,
+   "terrain": "spice",
+   "spice": 2162.033437587467
+  },
+  {
+   "x": 43,
+   "y": 13,
+   "terrain": "spice",
+   "spice": 1526.2234902102891
+  },
+  {
+   "x": 44,
+   "y": 13,
+   "terrain": "spice",
+   "spice": 1514.9920624467532
+  },
+  {
+   "x": 45,
+   "y": 13,
+   "terrain": "thick_spice",
+   "spice": 4429.860636870605
+  },
+  {
+   "x": 46,
+   "y": 13,
+   "terrain": "spice",
+   "spice": 1116.3855609910227
+  },
+  {
+   "x": 47,
+   "y": 13,
+   "terrain": "spice",
+   "spice": 2569.155325672614
+  },
+  {
+   "x": 48,
+   "y": 13,
+   "terrain": "spice",
+   "spice": 524.019109798066
+  },
+  {
+   "x": 49,
+   "y": 13,
+   "terrain": "spice",
+   "spice": 1053.8162658571373
+  },
+  {
+   "x": 15,
+   "y": 14,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 16,
+   "y": 14,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 14,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 14,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 14,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 14,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 14,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 14,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 14,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 14,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 14,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 14,
+   "terrain": "spice",
+   "spice": 2374.5400603591697
+  },
+  {
+   "x": 41,
+   "y": 14,
+   "terrain": "spice",
+   "spice": 2362.9987821302957
+  },
+  {
+   "x": 42,
+   "y": 14,
+   "terrain": "spice",
+   "spice": 960.9893402608973
+  },
+  {
+   "x": 43,
+   "y": 14,
+   "terrain": "spice",
+   "spice": 2019.5496655736376
+  },
+  {
+   "x": 44,
+   "y": 14,
+   "terrain": "thick_spice",
+   "spice": 5310.160369604855
+  },
+  {
+   "x": 45,
+   "y": 14,
+   "terrain": "thick_spice",
+   "spice": 5828.1693309221855
+  },
+  {
+   "x": 46,
+   "y": 14,
+   "terrain": "thick_spice",
+   "spice": 3355.9873705128402
+  },
+  {
+   "x": 47,
+   "y": 14,
+   "terrain": "spice",
+   "spice": 1491.206684398655
+  },
+  {
+   "x": 48,
+   "y": 14,
+   "terrain": "spice",
+   "spice": 2761.5137357617045
+  },
+  {
+   "x": 49,
+   "y": 14,
+   "terrain": "spice",
+   "spice": 628.9431176595132
+  },
+  {
+   "x": 15,
+   "y": 15,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 16,
+   "y": 15,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 15,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 15,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 15,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 15,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 15,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 15,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 15,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 15,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 15,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 15,
+   "terrain": "spice",
+   "spice": 994.2492101359819
+  },
+  {
+   "x": 32,
+   "y": 15,
+   "terrain": "spice",
+   "spice": 1208.80668323187
+  },
+  {
+   "x": 33,
+   "y": 15,
+   "terrain": "spice",
+   "spice": 840.6496229539125
+  },
+  {
+   "x": 40,
+   "y": 15,
+   "terrain": "spice",
+   "spice": 2672.934479165531
+  },
+  {
+   "x": 41,
+   "y": 15,
+   "terrain": "spice",
+   "spice": 975.98341625375
+  },
+  {
+   "x": 42,
+   "y": 15,
+   "terrain": "spice",
+   "spice": 1578.809880439028
+  },
+  {
+   "x": 43,
+   "y": 15,
+   "terrain": "thick_spice",
+   "spice": 2330.3573401845224
+  },
+  {
+   "x": 44,
+   "y": 15,
+   "terrain": "thick_spice",
+   "spice": 4675.0391868822835
+  },
+  {
+   "x": 45,
+   "y": 15,
+   "terrain": "thick_spice",
+   "spice": 5697.00374702823
+  },
+  {
+   "x": 46,
+   "y": 15,
+   "terrain": "thick_spice",
+   "spice": 5706.89697354598
+  },
+  {
+   "x": 47,
+   "y": 15,
+   "terrain": "thick_spice",
+   "spice": 2933.7488026568094
+  },
+  {
+   "x": 48,
+   "y": 15,
+   "terrain": "spice",
+   "spice": 1039.2155648971388
+  },
+  {
+   "x": 49,
+   "y": 15,
+   "terrain": "spice",
+   "spice": 2153.371369114405
+  },
+  {
+   "x": 50,
+   "y": 15,
+   "terrain": "spice",
+   "spice": 642.3910643635701
+  },
+  {
+   "x": 15,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 16,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 16,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 16,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 16,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 16,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 16,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 16,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 16,
+   "terrain": "spice",
+   "spice": 2627.8506564664017
+  },
+  {
+   "x": 31,
+   "y": 16,
+   "terrain": "spice",
+   "spice": 2531.7298335064884
+  },
+  {
+   "x": 32,
+   "y": 16,
+   "terrain": "spice",
+   "spice": 517.4737454249879
+  },
+  {
+   "x": 33,
+   "y": 16,
+   "terrain": "spice",
+   "spice": 653.4288392347594
+  },
+  {
+   "x": 34,
+   "y": 16,
+   "terrain": "spice",
+   "spice": 940.7665670133987
+  },
+  {
+   "x": 40,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 16,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 16,
+   "terrain": "thick_spice",
+   "spice": 1029.763404421444
+  },
+  {
+   "x": 47,
+   "y": 16,
+   "terrain": "spice",
+   "spice": 2047.0211298708568
+  },
+  {
+   "x": 48,
+   "y": 16,
+   "terrain": "spice",
+   "spice": 1473.1476009081075
+  },
+  {
+   "x": 49,
+   "y": 16,
+   "terrain": "spice",
+   "spice": 1772.3880459435127
+  },
+  {
+   "x": 15,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 16,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 17,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 17,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 17,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 2493.810754288789
+  },
+  {
+   "x": 31,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 2547.3068478541572
+  },
+  {
+   "x": 32,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 2270.424846277733
+  },
+  {
+   "x": 33,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 1314.7890332946595
+  },
+  {
+   "x": 34,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 508.75035986595304
+  },
+  {
+   "x": 35,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 2626.870103554685
+  },
+  {
+   "x": 36,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 1207.407880454211
+  },
+  {
+   "x": 40,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 17,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 2223.5293424728443
+  },
+  {
+   "x": 47,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 2802.849516360827
+  },
+  {
+   "x": 48,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 2713.30012351605
+  },
+  {
+   "x": 49,
+   "y": 17,
+   "terrain": "spice",
+   "spice": 1710.5938931527774
+  },
+  {
+   "x": 27,
+   "y": 18,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 18,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 18,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 18,
+   "terrain": "spice",
+   "spice": 2078.0308578205986
+  },
+  {
+   "x": 31,
+   "y": 18,
+   "terrain": "spice",
+   "spice": 1471.186930210215
+  },
+  {
+   "x": 32,
+   "y": 18,
+   "terrain": "thick_spice",
+   "spice": 1768.5677389879215
+  },
+  {
+   "x": 33,
+   "y": 18,
+   "terrain": "spice",
+   "spice": 1294.4357115693601
+  },
+  {
+   "x": 34,
+   "y": 18,
+   "terrain": "spice",
+   "spice": 1148.3715120881202
+  },
+  {
+   "x": 35,
+   "y": 18,
+   "terrain": "spice",
+   "spice": 626.2225957672713
+  },
+  {
+   "x": 36,
+   "y": 18,
+   "terrain": "spice",
+   "spice": 1312.7067089808604
+  },
+  {
+   "x": 40,
+   "y": 18,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 18,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 18,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 18,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 18,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 18,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 18,
+   "terrain": "spice",
+   "spice": 2667.694082129812
+  },
+  {
+   "x": 47,
+   "y": 18,
+   "terrain": "spice",
+   "spice": 1034.7332426199282
+  },
+  {
+   "x": 48,
+   "y": 18,
+   "terrain": "spice",
+   "spice": 1566.8523557793142
+  },
+  {
+   "x": 49,
+   "y": 18,
+   "terrain": "spice",
+   "spice": 2373.2520453866628
+  },
+  {
+   "x": 28,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 1739.5588544781112
+  },
+  {
+   "x": 29,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 1700.8054345237683
+  },
+  {
+   "x": 30,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 2487.1845753181024
+  },
+  {
+   "x": 31,
+   "y": 19,
+   "terrain": "thick_spice",
+   "spice": 2235.291707009331
+  },
+  {
+   "x": 32,
+   "y": 19,
+   "terrain": "thick_spice",
+   "spice": 4835.249226032516
+  },
+  {
+   "x": 33,
+   "y": 19,
+   "terrain": "thick_spice",
+   "spice": 2399.747452157466
+  },
+  {
+   "x": 34,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 1954.430052485076
+  },
+  {
+   "x": 35,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 601.4986128237844
+  },
+  {
+   "x": 36,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 788.4847615548916
+  },
+  {
+   "x": 37,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 736.3509581118251
+  },
+  {
+   "x": 40,
+   "y": 19,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 19,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 19,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 19,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 2922.085212160587
+  },
+  {
+   "x": 45,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 1700.5691802056374
+  },
+  {
+   "x": 46,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 1800.497180211416
+  },
+  {
+   "x": 47,
+   "y": 19,
+   "terrain": "spice",
+   "spice": 2242.509625817034
+  },
+  {
+   "x": 48,
+   "y": 19,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 20,
+   "terrain": "spice",
+   "spice": 1985.0304128338864
+  },
+  {
+   "x": 29,
+   "y": 20,
+   "terrain": "spice",
+   "spice": 2756.7955640077594
+  },
+  {
+   "x": 30,
+   "y": 20,
+   "terrain": "thick_spice",
+   "spice": 4827.531162636336
+  },
+  {
+   "x": 31,
+   "y": 20,
+   "terrain": "thick_spice",
+   "spice": 1193.0287596083003
+  },
+  {
+   "x": 32,
+   "y": 20,
+   "terrain": "thick_spice",
+   "spice": 1437.4075220474915
+  },
+  {
+   "x": 33,
+   "y": 20,
+   "terrain": "thick_spice",
+   "spice": 5593.864340522148
+  },
+  {
+   "x": 34,
+   "y": 20,
+   "terrain": "thick_spice",
+   "spice": 2600.7654001981755
+  },
+  {
+   "x": 35,
+   "y": 20,
+   "terrain": "spice",
+   "spice": 1771.8197160222683
+  },
+  {
+   "x": 36,
+   "y": 20,
+   "terrain": "spice",
+   "spice": 1663.892633485122
+  },
+  {
+   "x": 44,
+   "y": 20,
+   "terrain": "spice",
+   "spice": 594.3088297007532
+  },
+  {
+   "x": 45,
+   "y": 20,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 20,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 47,
+   "y": 20,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 48,
+   "y": 20,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 21,
+   "terrain": "spice",
+   "spice": 1557.2447503609042
+  },
+  {
+   "x": 29,
+   "y": 21,
+   "terrain": "spice",
+   "spice": 1487.8177428147026
+  },
+  {
+   "x": 30,
+   "y": 21,
+   "terrain": "spice",
+   "spice": 1182.62837065115
+  },
+  {
+   "x": 31,
+   "y": 21,
+   "terrain": "thick_spice",
+   "spice": 4508.492986843432
+  },
+  {
+   "x": 32,
+   "y": 21,
+   "terrain": "thick_spice",
+   "spice": 3502.7348809151363
+  },
+  {
+   "x": 33,
+   "y": 21,
+   "terrain": "thick_spice",
+   "spice": 3576.836521486185
+  },
+  {
+   "x": 34,
+   "y": 21,
+   "terrain": "spice",
+   "spice": 557.1871800935905
+  },
+  {
+   "x": 35,
+   "y": 21,
+   "terrain": "spice",
+   "spice": 2322.6253172864353
+  },
+  {
+   "x": 36,
+   "y": 21,
+   "terrain": "spice",
+   "spice": 1992.8647333368604
+  },
+  {
+   "x": 44,
+   "y": 21,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 21,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 21,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 47,
+   "y": 21,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 48,
+   "y": 21,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 49,
+   "y": 21,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 22,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 22,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 22,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 22,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 22,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 22,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 22,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 22,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 22,
+   "terrain": "spice",
+   "spice": 791.3911931003298
+  },
+  {
+   "x": 29,
+   "y": 22,
+   "terrain": "spice",
+   "spice": 791.2009002333368
+  },
+  {
+   "x": 30,
+   "y": 22,
+   "terrain": "spice",
+   "spice": 664.8690280561668
+  },
+  {
+   "x": 31,
+   "y": 22,
+   "terrain": "spice",
+   "spice": 2123.1619093987383
+  },
+  {
+   "x": 32,
+   "y": 22,
+   "terrain": "thick_spice",
+   "spice": 3816.606183255121
+  },
+  {
+   "x": 33,
+   "y": 22,
+   "terrain": "spice",
+   "spice": 1476.7837477547255
+  },
+  {
+   "x": 34,
+   "y": 22,
+   "terrain": "spice",
+   "spice": 1972.6019625610315
+  },
+  {
+   "x": 35,
+   "y": 22,
+   "terrain": "spice",
+   "spice": 1803.0761501228305
+  },
+  {
+   "x": 36,
+   "y": 22,
+   "terrain": "spice",
+   "spice": 1405.0795972128078
+  },
+  {
+   "x": 43,
+   "y": 22,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 22,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 22,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 22,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 47,
+   "y": 22,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 48,
+   "y": 22,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 49,
+   "y": 22,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 22,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 22,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 23,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 23,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 23,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 23,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 23,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 23,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 23,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 23,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 23,
+   "terrain": "spice",
+   "spice": 1899.101740961746
+  },
+  {
+   "x": 30,
+   "y": 23,
+   "terrain": "spice",
+   "spice": 2271.778868442134
+  },
+  {
+   "x": 31,
+   "y": 23,
+   "terrain": "spice",
+   "spice": 2729.8151393330677
+  },
+  {
+   "x": 32,
+   "y": 23,
+   "terrain": "spice",
+   "spice": 2716.900893032117
+  },
+  {
+   "x": 33,
+   "y": 23,
+   "terrain": "spice",
+   "spice": 1725.5921815657528
+  },
+  {
+   "x": 34,
+   "y": 23,
+   "terrain": "spice",
+   "spice": 1915.1393769085748
+  },
+  {
+   "x": 35,
+   "y": 23,
+   "terrain": "spice",
+   "spice": 2498.1483407663536
+  },
+  {
+   "x": 36,
+   "y": 23,
+   "terrain": "spice",
+   "spice": 2929.0068786371585
+  },
+  {
+   "x": 44,
+   "y": 23,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 23,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 23,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 47,
+   "y": 23,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 48,
+   "y": 23,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 23,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 23,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 23,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 23,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 24,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 24,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 24,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 24,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 24,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 24,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 24,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 24,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 24,
+   "terrain": "spice",
+   "spice": 1539.5440618493164
+  },
+  {
+   "x": 31,
+   "y": 24,
+   "terrain": "spice",
+   "spice": 1261.1157289043454
+  },
+  {
+   "x": 32,
+   "y": 24,
+   "terrain": "spice",
+   "spice": 1248.4890644788031
+  },
+  {
+   "x": 33,
+   "y": 24,
+   "terrain": "spice",
+   "spice": 1303.3812474871827
+  },
+  {
+   "x": 34,
+   "y": 24,
+   "terrain": "spice",
+   "spice": 1214.7657526895696
+  },
+  {
+   "x": 35,
+   "y": 24,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 24,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 24,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 47,
+   "y": 24,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 49,
+   "y": 24,
+   "terrain": "spice",
+   "spice": 1623.0778295705318
+  },
+  {
+   "x": 50,
+   "y": 24,
+   "terrain": "spice",
+   "spice": 967.1564590855398
+  },
+  {
+   "x": 51,
+   "y": 24,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 24,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 24,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 24,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 24,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 25,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 25,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 25,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 25,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 25,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 25,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 25,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 25,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 25,
+   "terrain": "spice",
+   "spice": 1620.7657910901567
+  },
+  {
+   "x": 32,
+   "y": 25,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 25,
+   "terrain": "spice",
+   "spice": 1933.7475107337411
+  },
+  {
+   "x": 34,
+   "y": 25,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 25,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 25,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 48,
+   "y": 25,
+   "terrain": "spice",
+   "spice": 673.7523897375315
+  },
+  {
+   "x": 49,
+   "y": 25,
+   "terrain": "spice",
+   "spice": 2039.86380704497
+  },
+  {
+   "x": 50,
+   "y": 25,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 25,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 25,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 25,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 25,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 25,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 25,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 26,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 26,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 26,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 26,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 26,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 26,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 26,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 26,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 26,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 26,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 26,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 26,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 26,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 26,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 26,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 26,
+   "terrain": "spice",
+   "spice": 2208.690548155778
+  },
+  {
+   "x": 47,
+   "y": 26,
+   "terrain": "spice",
+   "spice": 2052.6694176996907
+  },
+  {
+   "x": 48,
+   "y": 26,
+   "terrain": "spice",
+   "spice": 1864.0025668397548
+  },
+  {
+   "x": 49,
+   "y": 26,
+   "terrain": "spice",
+   "spice": 933.3507019395782
+  },
+  {
+   "x": 50,
+   "y": 26,
+   "terrain": "spice",
+   "spice": 2674.859206283044
+  },
+  {
+   "x": 51,
+   "y": 26,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 26,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 26,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 26,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 26,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 26,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 26,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 27,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 27,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 27,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 27,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 27,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 27,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 27,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 27,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 27,
+   "terrain": "spice",
+   "spice": 1314.8578765765128
+  },
+  {
+   "x": 47,
+   "y": 27,
+   "terrain": "spice",
+   "spice": 760.8483115112169
+  },
+  {
+   "x": 48,
+   "y": 27,
+   "terrain": "spice",
+   "spice": 526.3435431102569
+  },
+  {
+   "x": 49,
+   "y": 27,
+   "terrain": "spice",
+   "spice": 1914.7749336662357
+  },
+  {
+   "x": 50,
+   "y": 27,
+   "terrain": "spice",
+   "spice": 2115.790026867232
+  },
+  {
+   "x": 51,
+   "y": 27,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 27,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 27,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 27,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 27,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 14,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 2199.0329608015354
+  },
+  {
+   "x": 15,
+   "y": 28,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 16,
+   "y": 28,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 28,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 28,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 28,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 28,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 28,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 28,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 28,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 28,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 1435.8081580978012
+  },
+  {
+   "x": 33,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 1598.4284419810053
+  },
+  {
+   "x": 34,
+   "y": 28,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 28,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 28,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 724.3546616319759
+  },
+  {
+   "x": 46,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 839.2713125828861
+  },
+  {
+   "x": 47,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 1481.2027720535318
+  },
+  {
+   "x": 48,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 1655.384244938301
+  },
+  {
+   "x": 49,
+   "y": 28,
+   "terrain": "thick_spice",
+   "spice": 4384.4320202871
+  },
+  {
+   "x": 50,
+   "y": 28,
+   "terrain": "thick_spice",
+   "spice": 5786.78478755015
+  },
+  {
+   "x": 51,
+   "y": 28,
+   "terrain": "thick_spice",
+   "spice": 1821.515952300816
+  },
+  {
+   "x": 52,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 2572.5589244048283
+  },
+  {
+   "x": 53,
+   "y": 28,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 2265.693567269977
+  },
+  {
+   "x": 55,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 2464.363322733512
+  },
+  {
+   "x": 56,
+   "y": 28,
+   "terrain": "spice",
+   "spice": 2637.77803477327
+  },
+  {
+   "x": 57,
+   "y": 28,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 28,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 28,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 28,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 28,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 62,
+   "y": 28,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 13,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 721.5485103586748
+  },
+  {
+   "x": 14,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 2464.749497687474
+  },
+  {
+   "x": 15,
+   "y": 29,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 16,
+   "y": 29,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 29,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 1160.5815758374404
+  },
+  {
+   "x": 31,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 1956.4922736711653
+  },
+  {
+   "x": 32,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 1395.749147746927
+  },
+  {
+   "x": 33,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 2558.679506298032
+  },
+  {
+   "x": 34,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 1309.048334056522
+  },
+  {
+   "x": 45,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 2955.448893934951
+  },
+  {
+   "x": 46,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 2531.8606228167546
+  },
+  {
+   "x": 47,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 599.1434642195696
+  },
+  {
+   "x": 48,
+   "y": 29,
+   "terrain": "thick_spice",
+   "spice": 5442.746872274318
+  },
+  {
+   "x": 49,
+   "y": 29,
+   "terrain": "thick_spice",
+   "spice": 1534.0278811820303
+  },
+  {
+   "x": 50,
+   "y": 29,
+   "terrain": "thick_spice",
+   "spice": 4068.1582107268264
+  },
+  {
+   "x": 51,
+   "y": 29,
+   "terrain": "thick_spice",
+   "spice": 3775.8378845577663
+  },
+  {
+   "x": 52,
+   "y": 29,
+   "terrain": "thick_spice",
+   "spice": 3209.6029482891095
+  },
+  {
+   "x": 53,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 909.2811008697486
+  },
+  {
+   "x": 54,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 2655.749758675508
+  },
+  {
+   "x": 55,
+   "y": 29,
+   "terrain": "spice",
+   "spice": 2343.2705302243503
+  },
+  {
+   "x": 56,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 62,
+   "y": 29,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 2185.93229268316
+  },
+  {
+   "x": 11,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 935.6625392275005
+  },
+  {
+   "x": 12,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 1131.5131261408437
+  },
+  {
+   "x": 13,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 1330.4266033378483
+  },
+  {
+   "x": 14,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 965.2086693713653
+  },
+  {
+   "x": 15,
+   "y": 30,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 16,
+   "y": 30,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 2444.3449865914567
+  },
+  {
+   "x": 18,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 2049.4656296708445
+  },
+  {
+   "x": 19,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 1637.2118337871839
+  },
+  {
+   "x": 20,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 2990.342431201072
+  },
+  {
+   "x": 21,
+   "y": 30,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 30,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 30,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 30,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 30,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 2487.377225985282
+  },
+  {
+   "x": 30,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 1656.3959621439656
+  },
+  {
+   "x": 31,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 2702.8608045779865
+  },
+  {
+   "x": 32,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 811.5851536601256
+  },
+  {
+   "x": 33,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 1917.8711282044094
+  },
+  {
+   "x": 34,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 1861.0146320625197
+  },
+  {
+   "x": 35,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 552.5032009502361
+  },
+  {
+   "x": 45,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 705.9032776123984
+  },
+  {
+   "x": 46,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 2228.1339463112836
+  },
+  {
+   "x": 47,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 828.2823756668524
+  },
+  {
+   "x": 48,
+   "y": 30,
+   "terrain": "thick_spice",
+   "spice": 2473.1488610534534
+  },
+  {
+   "x": 49,
+   "y": 30,
+   "terrain": "thick_spice",
+   "spice": 5731.283425013298
+  },
+  {
+   "x": 50,
+   "y": 30,
+   "terrain": "thick_spice",
+   "spice": 1861.4970973462277
+  },
+  {
+   "x": 51,
+   "y": 30,
+   "terrain": "thick_spice",
+   "spice": 4253.821494225057
+  },
+  {
+   "x": 52,
+   "y": 30,
+   "terrain": "thick_spice",
+   "spice": 4764.833303080579
+  },
+  {
+   "x": 53,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 1931.9278069508412
+  },
+  {
+   "x": 54,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 573.6764458551309
+  },
+  {
+   "x": 55,
+   "y": 30,
+   "terrain": "spice",
+   "spice": 1009.9231860746395
+  },
+  {
+   "x": 57,
+   "y": 30,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 30,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 30,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 30,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 30,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 1489.8354579962297
+  },
+  {
+   "x": 11,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 2930.893594497528
+  },
+  {
+   "x": 12,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 1659.7264156751899
+  },
+  {
+   "x": 13,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 602.3495782093614
+  },
+  {
+   "x": 14,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 2310.061736030295
+  },
+  {
+   "x": 15,
+   "y": 31,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 16,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 2521.4358476624775
+  },
+  {
+   "x": 17,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 1929.7432062281678
+  },
+  {
+   "x": 18,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 1892.4327994981838
+  },
+  {
+   "x": 19,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 1906.9117440386644
+  },
+  {
+   "x": 20,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 1195.5478550776515
+  },
+  {
+   "x": 21,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 640.7192074820579
+  },
+  {
+   "x": 30,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 1065.400513667902
+  },
+  {
+   "x": 31,
+   "y": 31,
+   "terrain": "thick_spice",
+   "spice": 1362.3249483330264
+  },
+  {
+   "x": 32,
+   "y": 31,
+   "terrain": "thick_spice",
+   "spice": 3540.7816654469375
+  },
+  {
+   "x": 33,
+   "y": 31,
+   "terrain": "thick_spice",
+   "spice": 5436.52217908072
+  },
+  {
+   "x": 34,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 2382.863080567052
+  },
+  {
+   "x": 35,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 2921.851988568358
+  },
+  {
+   "x": 38,
+   "y": 31,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 31,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 31,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 31,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 31,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 31,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 31,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 31,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 2366.1682006645296
+  },
+  {
+   "x": 47,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 542.6462611175249
+  },
+  {
+   "x": 48,
+   "y": 31,
+   "terrain": "thick_spice",
+   "spice": 3652.0535052892274
+  },
+  {
+   "x": 49,
+   "y": 31,
+   "terrain": "thick_spice",
+   "spice": 5617.955883355153
+  },
+  {
+   "x": 50,
+   "y": 31,
+   "terrain": "thick_spice",
+   "spice": 4083.4712109753023
+  },
+  {
+   "x": 51,
+   "y": 31,
+   "terrain": "thick_spice",
+   "spice": 4105.068603369827
+  },
+  {
+   "x": 52,
+   "y": 31,
+   "terrain": "thick_spice",
+   "spice": 3194.908874641305
+  },
+  {
+   "x": 53,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 1978.4835566499053
+  },
+  {
+   "x": 54,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 1465.6492861835595
+  },
+  {
+   "x": 55,
+   "y": 31,
+   "terrain": "spice",
+   "spice": 593.2183054063294
+  },
+  {
+   "x": 57,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 31,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 2173.2922371783693
+  },
+  {
+   "x": 10,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1675.3545285993998
+  },
+  {
+   "x": 11,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1830.999392985395
+  },
+  {
+   "x": 12,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1052.151277420988
+  },
+  {
+   "x": 13,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 2092.46916648744
+  },
+  {
+   "x": 14,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1069.470910861075
+  },
+  {
+   "x": 15,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 2256.240038616536
+  },
+  {
+   "x": 16,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 802.0402052032581
+  },
+  {
+   "x": 17,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1355.594141622295
+  },
+  {
+   "x": 18,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1721.0630793127625
+  },
+  {
+   "x": 19,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1285.6864883914823
+  },
+  {
+   "x": 20,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 2245.9067540118203
+  },
+  {
+   "x": 21,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 2840.820129914398
+  },
+  {
+   "x": 22,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1068.488750210913
+  },
+  {
+   "x": 30,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 2476.983738245353
+  },
+  {
+   "x": 31,
+   "y": 32,
+   "terrain": "thick_spice",
+   "spice": 5459.6220489069665
+  },
+  {
+   "x": 32,
+   "y": 32,
+   "terrain": "thick_spice",
+   "spice": 3679.6031445330777
+  },
+  {
+   "x": 33,
+   "y": 32,
+   "terrain": "thick_spice",
+   "spice": 2393.7688439924746
+  },
+  {
+   "x": 34,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1484.7606670065995
+  },
+  {
+   "x": 35,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1911.391950481157
+  },
+  {
+   "x": 36,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 2869.681283587298
+  },
+  {
+   "x": 38,
+   "y": 32,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 32,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 32,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 32,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 32,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 32,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 32,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 32,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1762.1527067964403
+  },
+  {
+   "x": 47,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 2279.0581673386464
+  },
+  {
+   "x": 48,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 694.1226113837266
+  },
+  {
+   "x": 49,
+   "y": 32,
+   "terrain": "thick_spice",
+   "spice": 2003.2107328403672
+  },
+  {
+   "x": 50,
+   "y": 32,
+   "terrain": "thick_spice",
+   "spice": 5257.076032551032
+  },
+  {
+   "x": 51,
+   "y": 32,
+   "terrain": "thick_spice",
+   "spice": 2192.428530005569
+  },
+  {
+   "x": 52,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1887.2945488341834
+  },
+  {
+   "x": 53,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 2383.3820988623315
+  },
+  {
+   "x": 54,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1758.8657581061525
+  },
+  {
+   "x": 55,
+   "y": 32,
+   "terrain": "spice",
+   "spice": 1371.7011095163007
+  },
+  {
+   "x": 56,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 32,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 1757.7935247746775
+  },
+  {
+   "x": 9,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 917.5103513481685
+  },
+  {
+   "x": 10,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 2424.68649814631
+  },
+  {
+   "x": 11,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 1908.186658726974
+  },
+  {
+   "x": 12,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 1033.983605910844
+  },
+  {
+   "x": 13,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 543.6798261643614
+  },
+  {
+   "x": 14,
+   "y": 33,
+   "terrain": "thick_spice",
+   "spice": 5727.927558724839
+  },
+  {
+   "x": 15,
+   "y": 33,
+   "terrain": "thick_spice",
+   "spice": 3527.0412383920193
+  },
+  {
+   "x": 16,
+   "y": 33,
+   "terrain": "thick_spice",
+   "spice": 3467.06340801715
+  },
+  {
+   "x": 17,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 2714.4906106360113
+  },
+  {
+   "x": 18,
+   "y": 33,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 33,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 1608.840662590082
+  },
+  {
+   "x": 21,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 1695.6121001275633
+  },
+  {
+   "x": 22,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 2537.067367575504
+  },
+  {
+   "x": 30,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 2628.135837621712
+  },
+  {
+   "x": 31,
+   "y": 33,
+   "terrain": "thick_spice",
+   "spice": 4397.006637581635
+  },
+  {
+   "x": 32,
+   "y": 33,
+   "terrain": "thick_spice",
+   "spice": 3703.8463741984483
+  },
+  {
+   "x": 33,
+   "y": 33,
+   "terrain": "thick_spice",
+   "spice": 3082.699976218942
+  },
+  {
+   "x": 34,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 591.0335571411131
+  },
+  {
+   "x": 35,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 837.446970017983
+  },
+  {
+   "x": 38,
+   "y": 33,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 33,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 33,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 33,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 33,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 33,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 33,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 33,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 2812.1705265321716
+  },
+  {
+   "x": 47,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 1916.3758071615998
+  },
+  {
+   "x": 48,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 2842.8564196663747
+  },
+  {
+   "x": 49,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 2990.7021729821595
+  },
+  {
+   "x": 50,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 502.3185990557903
+  },
+  {
+   "x": 51,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 2938.8194095969498
+  },
+  {
+   "x": 52,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 1013.4477201281181
+  },
+  {
+   "x": 53,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 626.2018776924201
+  },
+  {
+   "x": 54,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 2170.6013752666813
+  },
+  {
+   "x": 55,
+   "y": 33,
+   "terrain": "spice",
+   "spice": 815.0518356651424
+  },
+  {
+   "x": 56,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 33,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 1434.25536543074
+  },
+  {
+   "x": 10,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 2244.8592893379064
+  },
+  {
+   "x": 11,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 2773.152761857298
+  },
+  {
+   "x": 12,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 619.108278356686
+  },
+  {
+   "x": 13,
+   "y": 34,
+   "terrain": "thick_spice",
+   "spice": 5503.265682654798
+  },
+  {
+   "x": 14,
+   "y": 34,
+   "terrain": "thick_spice",
+   "spice": 1039.6464000793294
+  },
+  {
+   "x": 15,
+   "y": 34,
+   "terrain": "thick_spice",
+   "spice": 1987.5957468266088
+  },
+  {
+   "x": 16,
+   "y": 34,
+   "terrain": "thick_spice",
+   "spice": 2377.59710137438
+  },
+  {
+   "x": 17,
+   "y": 34,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 34,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 34,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 34,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 670.0095512200312
+  },
+  {
+   "x": 22,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 520.7580345335032
+  },
+  {
+   "x": 23,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 1567.677765916516
+  },
+  {
+   "x": 29,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 2335.890688615058
+  },
+  {
+   "x": 30,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 1192.1182554038983
+  },
+  {
+   "x": 31,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 2885.983483314432
+  },
+  {
+   "x": 32,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 2169.155404801185
+  },
+  {
+   "x": 33,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 571.669548699701
+  },
+  {
+   "x": 34,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 1530.610226637312
+  },
+  {
+   "x": 35,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 1446.9935117986524
+  },
+  {
+   "x": 38,
+   "y": 34,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 34,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 34,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 34,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 34,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 34,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 34,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 34,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 47,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 532.5895748987721
+  },
+  {
+   "x": 48,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 1362.3350157190946
+  },
+  {
+   "x": 49,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 1324.6509392258213
+  },
+  {
+   "x": 50,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 1080.6472427025092
+  },
+  {
+   "x": 51,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 2315.689192396116
+  },
+  {
+   "x": 52,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 616.493752829106
+  },
+  {
+   "x": 53,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 1297.8145028986464
+  },
+  {
+   "x": 54,
+   "y": 34,
+   "terrain": "spice",
+   "spice": 2492.4964262717613
+  },
+  {
+   "x": 55,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 34,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 743.9923859000917
+  },
+  {
+   "x": 9,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 1955.1959211750059
+  },
+  {
+   "x": 10,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 2386.1117387061454
+  },
+  {
+   "x": 11,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 2665.127501193539
+  },
+  {
+   "x": 12,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 2217.372703226481
+  },
+  {
+   "x": 13,
+   "y": 35,
+   "terrain": "thick_spice",
+   "spice": 2599.278297150807
+  },
+  {
+   "x": 14,
+   "y": 35,
+   "terrain": "thick_spice",
+   "spice": 4058.381543817347
+  },
+  {
+   "x": 15,
+   "y": 35,
+   "terrain": "thick_spice",
+   "spice": 3342.6548512503264
+  },
+  {
+   "x": 16,
+   "y": 35,
+   "terrain": "thick_spice",
+   "spice": 2460.7356187910264
+  },
+  {
+   "x": 17,
+   "y": 35,
+   "terrain": "thick_spice",
+   "spice": 3435.48235329107
+  },
+  {
+   "x": 18,
+   "y": 35,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 35,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 35,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 35,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 2305.72751949543
+  },
+  {
+   "x": 23,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 1914.6312680762094
+  },
+  {
+   "x": 31,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 2089.9789664083137
+  },
+  {
+   "x": 32,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 2425.1159093465426
+  },
+  {
+   "x": 33,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 1448.4658261298246
+  },
+  {
+   "x": 34,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 737.2176691397079
+  },
+  {
+   "x": 35,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 1224.7870805792754
+  },
+  {
+   "x": 38,
+   "y": 35,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 35,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 35,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 35,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 35,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 35,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 35,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 35,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 47,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 682.315085915701
+  },
+  {
+   "x": 48,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 2351.4718100858217
+  },
+  {
+   "x": 49,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 733.8522801203574
+  },
+  {
+   "x": 50,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 1064.8615360767303
+  },
+  {
+   "x": 51,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 2198.497924580473
+  },
+  {
+   "x": 52,
+   "y": 35,
+   "terrain": "spice",
+   "spice": 1221.7355630469385
+  },
+  {
+   "x": 54,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 62,
+   "y": 35,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 8,
+   "y": 36,
+   "terrain": "spice",
+   "spice": 657.8823918172831
+  },
+  {
+   "x": 9,
+   "y": 36,
+   "terrain": "spice",
+   "spice": 2471.472296339341
+  },
+  {
+   "x": 10,
+   "y": 36,
+   "terrain": "spice",
+   "spice": 1921.0261011212683
+  },
+  {
+   "x": 11,
+   "y": 36,
+   "terrain": "spice",
+   "spice": 1952.8928292527355
+  },
+  {
+   "x": 12,
+   "y": 36,
+   "terrain": "spice",
+   "spice": 604.7228715735057
+  },
+  {
+   "x": 13,
+   "y": 36,
+   "terrain": "thick_spice",
+   "spice": 2193.077229801815
+  },
+  {
+   "x": 14,
+   "y": 36,
+   "terrain": "thick_spice",
+   "spice": 4761.33998629334
+  },
+  {
+   "x": 15,
+   "y": 36,
+   "terrain": "thick_spice",
+   "spice": 3536.7873092451637
+  },
+  {
+   "x": 16,
+   "y": 36,
+   "terrain": "thick_spice",
+   "spice": 4035.9661559402416
+  },
+  {
+   "x": 17,
+   "y": 36,
+   "terrain": "thick_spice",
+   "spice": 1420.9112810961162
+  },
+  {
+   "x": 18,
+   "y": 36,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 36,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 36,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 36,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 36,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 36,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 36,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 36,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 36,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 36,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 36,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 36,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 48,
+   "y": 36,
+   "terrain": "spice",
+   "spice": 1696.4629840450273
+  },
+  {
+   "x": 49,
+   "y": 36,
+   "terrain": "spice",
+   "spice": 724.1880658238721
+  },
+  {
+   "x": 50,
+   "y": 36,
+   "terrain": "spice",
+   "spice": 862.8984889590597
+  },
+  {
+   "x": 52,
+   "y": 36,
+   "terrain": "spice",
+   "spice": 1248.5053550476946
+  },
+  {
+   "x": 54,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 36,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 37,
+   "terrain": "spice",
+   "spice": 1515.803324045925
+  },
+  {
+   "x": 10,
+   "y": 37,
+   "terrain": "spice",
+   "spice": 2142.6570904985792
+  },
+  {
+   "x": 11,
+   "y": 37,
+   "terrain": "spice",
+   "spice": 1184.7014153387358
+  },
+  {
+   "x": 12,
+   "y": 37,
+   "terrain": "spice",
+   "spice": 1419.36340799995
+  },
+  {
+   "x": 13,
+   "y": 37,
+   "terrain": "spice",
+   "spice": 1488.4167883257574
+  },
+  {
+   "x": 14,
+   "y": 37,
+   "terrain": "thick_spice",
+   "spice": 4435.82983955189
+  },
+  {
+   "x": 15,
+   "y": 37,
+   "terrain": "thick_spice",
+   "spice": 1341.4367495718018
+  },
+  {
+   "x": 16,
+   "y": 37,
+   "terrain": "thick_spice",
+   "spice": 2736.1127185099117
+  },
+  {
+   "x": 17,
+   "y": 37,
+   "terrain": "spice",
+   "spice": 1614.8016522944376
+  },
+  {
+   "x": 18,
+   "y": 37,
+   "terrain": "spice",
+   "spice": 1252.344260932892
+  },
+  {
+   "x": 19,
+   "y": 37,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 37,
+   "terrain": "spice",
+   "spice": 1332.2017953674085
+  },
+  {
+   "x": 21,
+   "y": 37,
+   "terrain": "spice",
+   "spice": 1814.2543135771612
+  },
+  {
+   "x": 22,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 37,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 37,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 37,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 37,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 37,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 37,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 37,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 37,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 37,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 9,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 2383.8179504723817
+  },
+  {
+   "x": 10,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 939.0566492483758
+  },
+  {
+   "x": 11,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 2680.9309660147205
+  },
+  {
+   "x": 12,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 2305.262559915538
+  },
+  {
+   "x": 13,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 1232.696110197232
+  },
+  {
+   "x": 14,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 600.2940773579325
+  },
+  {
+   "x": 15,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 1466.9604789014904
+  },
+  {
+   "x": 16,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 567.7865351586895
+  },
+  {
+   "x": 17,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 2092.6147207544
+  },
+  {
+   "x": 18,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 1271.8260134346278
+  },
+  {
+   "x": 19,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 1662.72468844634
+  },
+  {
+   "x": 20,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 1113.7191709386884
+  },
+  {
+   "x": 21,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 891.9811549870858
+  },
+  {
+   "x": 22,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 38,
+   "terrain": "spice",
+   "spice": 2693.583854767518
+  },
+  {
+   "x": 38,
+   "y": 38,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 38,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 38,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 38,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 38,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 38,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 38,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 38,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 38,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 10,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 1327.7533557188794
+  },
+  {
+   "x": 11,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 672.3979955559896
+  },
+  {
+   "x": 12,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 2988.1747921042397
+  },
+  {
+   "x": 13,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 2888.1190308500163
+  },
+  {
+   "x": 14,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 1858.4296997538436
+  },
+  {
+   "x": 15,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 2208.4969242094785
+  },
+  {
+   "x": 16,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 1679.043844160105
+  },
+  {
+   "x": 17,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 906.6066677310706
+  },
+  {
+   "x": 18,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 737.9701726835965
+  },
+  {
+   "x": 19,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 1060.0770292564164
+  },
+  {
+   "x": 20,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 1275.5916958990451
+  },
+  {
+   "x": 21,
+   "y": 39,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 39,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 39,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 39,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 39,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 39,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 39,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 2980.9496553829217
+  },
+  {
+   "x": 31,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 2257.035948193479
+  },
+  {
+   "x": 32,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 2867.0896112759283
+  },
+  {
+   "x": 33,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 1774.2038787102017
+  },
+  {
+   "x": 34,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 2564.362795599765
+  },
+  {
+   "x": 35,
+   "y": 39,
+   "terrain": "spice",
+   "spice": 2479.030616809485
+  },
+  {
+   "x": 58,
+   "y": 39,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 39,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 11,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 1893.1388956955143
+  },
+  {
+   "x": 12,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 563.5066183386523
+  },
+  {
+   "x": 13,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 745.0779134781405
+  },
+  {
+   "x": 14,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 1517.09391399297
+  },
+  {
+   "x": 15,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 743.4817124143174
+  },
+  {
+   "x": 16,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 604.6643877724463
+  },
+  {
+   "x": 17,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 2038.5272885800143
+  },
+  {
+   "x": 18,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 903.0213126448148
+  },
+  {
+   "x": 19,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 1388.5715941884519
+  },
+  {
+   "x": 20,
+   "y": 40,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 40,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 40,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 40,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 40,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 40,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 40,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 517.000473342608
+  },
+  {
+   "x": 28,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 1254.2419721313245
+  },
+  {
+   "x": 29,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 2692.6621229407556
+  },
+  {
+   "x": 30,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 1887.4246918066658
+  },
+  {
+   "x": 31,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 2495.0100553672046
+  },
+  {
+   "x": 32,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 2501.3076343603307
+  },
+  {
+   "x": 33,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 2453.351719115016
+  },
+  {
+   "x": 34,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 1347.1639817082314
+  },
+  {
+   "x": 35,
+   "y": 40,
+   "terrain": "spice",
+   "spice": 623.0289570829152
+  },
+  {
+   "x": 11,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 650.9725307066667
+  },
+  {
+   "x": 12,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 2314.937769384126
+  },
+  {
+   "x": 13,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 2670.7162074876464
+  },
+  {
+   "x": 14,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 2117.386046264479
+  },
+  {
+   "x": 15,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 1603.0252630592665
+  },
+  {
+   "x": 16,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 1857.0085164256996
+  },
+  {
+   "x": 17,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 1364.0471920710293
+  },
+  {
+   "x": 18,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 2717.6409412143225
+  },
+  {
+   "x": 19,
+   "y": 41,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 20,
+   "y": 41,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 41,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 41,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 41,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 41,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 41,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 41,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 2991.36552694636
+  },
+  {
+   "x": 28,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 2695.0134584989232
+  },
+  {
+   "x": 29,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 1093.2006926137583
+  },
+  {
+   "x": 30,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 1696.4459735341027
+  },
+  {
+   "x": 31,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 1497.062501188777
+  },
+  {
+   "x": 32,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 2773.6654288605355
+  },
+  {
+   "x": 33,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 2140.612249071266
+  },
+  {
+   "x": 34,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 2954.0924596641676
+  },
+  {
+   "x": 35,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 1777.7059533693666
+  },
+  {
+   "x": 36,
+   "y": 41,
+   "terrain": "spice",
+   "spice": 1087.0703190949425
+  },
+  {
+   "x": 14,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 2666.715921839511
+  },
+  {
+   "x": 15,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 2605.098291403911
+  },
+  {
+   "x": 21,
+   "y": 42,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 42,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 42,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 42,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 42,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 2244.6281510649087
+  },
+  {
+   "x": 27,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 2789.956727984219
+  },
+  {
+   "x": 28,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 1350.0003052474135
+  },
+  {
+   "x": 29,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 2081.904821066544
+  },
+  {
+   "x": 30,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 2450.764576726262
+  },
+  {
+   "x": 31,
+   "y": 42,
+   "terrain": "thick_spice",
+   "spice": 4846.641782293696
+  },
+  {
+   "x": 32,
+   "y": 42,
+   "terrain": "thick_spice",
+   "spice": 2542.362698334732
+  },
+  {
+   "x": 33,
+   "y": 42,
+   "terrain": "thick_spice",
+   "spice": 2837.8119599063066
+  },
+  {
+   "x": 34,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 971.4871727638572
+  },
+  {
+   "x": 35,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 1610.15534504503
+  },
+  {
+   "x": 36,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 538.9435195280777
+  },
+  {
+   "x": 37,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 682.6376008368247
+  },
+  {
+   "x": 38,
+   "y": 42,
+   "terrain": "spice",
+   "spice": 2736.91199205339
+  },
+  {
+   "x": 44,
+   "y": 42,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 21,
+   "y": 43,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 43,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 43,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 43,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 43,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 43,
+   "terrain": "spice",
+   "spice": 759.077526835548
+  },
+  {
+   "x": 27,
+   "y": 43,
+   "terrain": "spice",
+   "spice": 1635.9361764307669
+  },
+  {
+   "x": 28,
+   "y": 43,
+   "terrain": "spice",
+   "spice": 1753.4674607110499
+  },
+  {
+   "x": 29,
+   "y": 43,
+   "terrain": "spice",
+   "spice": 531.2730662676807
+  },
+  {
+   "x": 30,
+   "y": 43,
+   "terrain": "thick_spice",
+   "spice": 3021.194713874921
+  },
+  {
+   "x": 31,
+   "y": 43,
+   "terrain": "thick_spice",
+   "spice": 2204.7629275845584
+  },
+  {
+   "x": 32,
+   "y": 43,
+   "terrain": "thick_spice",
+   "spice": 4719.746097641229
+  },
+  {
+   "x": 33,
+   "y": 43,
+   "terrain": "thick_spice",
+   "spice": 4312.938374477657
+  },
+  {
+   "x": 34,
+   "y": 43,
+   "terrain": "thick_spice",
+   "spice": 5271.044123403827
+  },
+  {
+   "x": 35,
+   "y": 43,
+   "terrain": "spice",
+   "spice": 970.7040742543988
+  },
+  {
+   "x": 36,
+   "y": 43,
+   "terrain": "spice",
+   "spice": 2189.8951521195013
+  },
+  {
+   "x": 37,
+   "y": 43,
+   "terrain": "spice",
+   "spice": 2898.2309521301913
+  },
+  {
+   "x": 42,
+   "y": 43,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 43,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 43,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 43,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 19,
+   "y": 44,
+   "terrain": "spice",
+   "spice": 2109.5125337512945
+  },
+  {
+   "x": 20,
+   "y": 44,
+   "terrain": "spice",
+   "spice": 1380.4585097917516
+  },
+  {
+   "x": 21,
+   "y": 44,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 44,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 44,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 44,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 44,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 44,
+   "terrain": "spice",
+   "spice": 1998.618057544239
+  },
+  {
+   "x": 27,
+   "y": 44,
+   "terrain": "spice",
+   "spice": 1833.5243626157971
+  },
+  {
+   "x": 28,
+   "y": 44,
+   "terrain": "spice",
+   "spice": 843.4875639522193
+  },
+  {
+   "x": 29,
+   "y": 44,
+   "terrain": "spice",
+   "spice": 758.0383485883908
+  },
+  {
+   "x": 30,
+   "y": 44,
+   "terrain": "thick_spice",
+   "spice": 4681.279692276839
+  },
+  {
+   "x": 31,
+   "y": 44,
+   "terrain": "thick_spice",
+   "spice": 4355.765891338588
+  },
+  {
+   "x": 32,
+   "y": 44,
+   "terrain": "thick_spice",
+   "spice": 4640.859239548572
+  },
+  {
+   "x": 33,
+   "y": 44,
+   "terrain": "thick_spice",
+   "spice": 5153.929766517322
+  },
+  {
+   "x": 34,
+   "y": 44,
+   "terrain": "thick_spice",
+   "spice": 4258.097411086259
+  },
+  {
+   "x": 35,
+   "y": 44,
+   "terrain": "spice",
+   "spice": 2621.4618553938867
+  },
+  {
+   "x": 36,
+   "y": 44,
+   "terrain": "spice",
+   "spice": 638.4120935230237
+  },
+  {
+   "x": 37,
+   "y": 44,
+   "terrain": "spice",
+   "spice": 2150.4232952168813
+  },
+  {
+   "x": 38,
+   "y": 44,
+   "terrain": "spice",
+   "spice": 1222.558001069422
+  },
+  {
+   "x": 42,
+   "y": 44,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 44,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 44,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 44,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 46,
+   "y": 44,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 678.8498368735602
+  },
+  {
+   "x": 18,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 1372.5221366532164
+  },
+  {
+   "x": 19,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 2316.260332997542
+  },
+  {
+   "x": 20,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 2842.9918085355666
+  },
+  {
+   "x": 21,
+   "y": 45,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 45,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 1372.4141626863584
+  },
+  {
+   "x": 24,
+   "y": 45,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 45,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 45,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 954.1823496538932
+  },
+  {
+   "x": 28,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 1234.565517112615
+  },
+  {
+   "x": 29,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 1630.6514177749357
+  },
+  {
+   "x": 30,
+   "y": 45,
+   "terrain": "thick_spice",
+   "spice": 1940.2502270260975
+  },
+  {
+   "x": 31,
+   "y": 45,
+   "terrain": "thick_spice",
+   "spice": 5274.290327133233
+  },
+  {
+   "x": 32,
+   "y": 45,
+   "terrain": "thick_spice",
+   "spice": 1339.9713192681452
+  },
+  {
+   "x": 33,
+   "y": 45,
+   "terrain": "thick_spice",
+   "spice": 1446.7860546632542
+  },
+  {
+   "x": 34,
+   "y": 45,
+   "terrain": "thick_spice",
+   "spice": 3578.107547963292
+  },
+  {
+   "x": 35,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 2948.7791471341116
+  },
+  {
+   "x": 36,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 2264.5574171165626
+  },
+  {
+   "x": 37,
+   "y": 45,
+   "terrain": "spice",
+   "spice": 1166.2308354406482
+  },
+  {
+   "x": 42,
+   "y": 45,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 45,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 45,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 45,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 17,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 1454.2964901183072
+  },
+  {
+   "x": 18,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 1591.0858101066906
+  },
+  {
+   "x": 19,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 2775.050987818578
+  },
+  {
+   "x": 20,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 1224.8781911781255
+  },
+  {
+   "x": 21,
+   "y": 46,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 46,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 46,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 906.0924661085758
+  },
+  {
+   "x": 25,
+   "y": 46,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 517.6235042188189
+  },
+  {
+   "x": 28,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 876.9628616026093
+  },
+  {
+   "x": 29,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 2400.7994894000876
+  },
+  {
+   "x": 30,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 2169.53082083183
+  },
+  {
+   "x": 31,
+   "y": 46,
+   "terrain": "thick_spice",
+   "spice": 1842.6609992580386
+  },
+  {
+   "x": 32,
+   "y": 46,
+   "terrain": "thick_spice",
+   "spice": 1489.498838784264
+  },
+  {
+   "x": 33,
+   "y": 46,
+   "terrain": "thick_spice",
+   "spice": 5812.807581037189
+  },
+  {
+   "x": 34,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 2781.331693380389
+  },
+  {
+   "x": 35,
+   "y": 46,
+   "terrain": "spice",
+   "spice": 964.0657004088291
+  },
+  {
+   "x": 36,
+   "y": 46,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 46,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 46,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 15,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 2113.8968932001953
+  },
+  {
+   "x": 16,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 2356.625983798248
+  },
+  {
+   "x": 17,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 1104.8168331862478
+  },
+  {
+   "x": 18,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 2800.4612495575925
+  },
+  {
+   "x": 19,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 2999.4170041496445
+  },
+  {
+   "x": 20,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 2821.189413228305
+  },
+  {
+   "x": 21,
+   "y": 47,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 22,
+   "y": 47,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 23,
+   "y": 47,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 47,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 47,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 501.4564870803327
+  },
+  {
+   "x": 28,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 729.7865018476753
+  },
+  {
+   "x": 29,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 1942.5571349451322
+  },
+  {
+   "x": 30,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 1746.0358833729179
+  },
+  {
+   "x": 31,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 1357.458536500612
+  },
+  {
+   "x": 32,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 2058.210636156118
+  },
+  {
+   "x": 33,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 1658.8626552342153
+  },
+  {
+   "x": 34,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 850.2327768853158
+  },
+  {
+   "x": 35,
+   "y": 47,
+   "terrain": "spice",
+   "spice": 568.1738154835012
+  },
+  {
+   "x": 36,
+   "y": 47,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 47,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 47,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 47,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 47,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 47,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 15,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 769.3549114240412
+  },
+  {
+   "x": 16,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 2939.973655690442
+  },
+  {
+   "x": 17,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 2575.6371724714286
+  },
+  {
+   "x": 18,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 2344.4671659082987
+  },
+  {
+   "x": 19,
+   "y": 48,
+   "terrain": "thick_spice",
+   "spice": 2462.2310673861643
+  },
+  {
+   "x": 20,
+   "y": 48,
+   "terrain": "thick_spice",
+   "spice": 1728.2128839674183
+  },
+  {
+   "x": 21,
+   "y": 48,
+   "terrain": "thick_spice",
+   "spice": 5914.441999914725
+  },
+  {
+   "x": 22,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 1984.0336254234219
+  },
+  {
+   "x": 23,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 676.0854193383713
+  },
+  {
+   "x": 24,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 970.5276318759729
+  },
+  {
+   "x": 25,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 824.8205419138309
+  },
+  {
+   "x": 28,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 2302.8227956705364
+  },
+  {
+   "x": 29,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 1804.2149588229238
+  },
+  {
+   "x": 30,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 2050.1016176897874
+  },
+  {
+   "x": 31,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 2491.0703026051488
+  },
+  {
+   "x": 32,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 2400.8032143019345
+  },
+  {
+   "x": 33,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 2676.407535489313
+  },
+  {
+   "x": 34,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 2114.0475241266763
+  },
+  {
+   "x": 35,
+   "y": 48,
+   "terrain": "spice",
+   "spice": 1518.6023028544216
+  },
+  {
+   "x": 36,
+   "y": 48,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 48,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 48,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 48,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 48,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 48,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 14,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 794.774694363459
+  },
+  {
+   "x": 15,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 2528.881162020648
+  },
+  {
+   "x": 16,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 623.6919349565219
+  },
+  {
+   "x": 17,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 2423.6749406058343
+  },
+  {
+   "x": 18,
+   "y": 49,
+   "terrain": "thick_spice",
+   "spice": 5094.19770116293
+  },
+  {
+   "x": 19,
+   "y": 49,
+   "terrain": "thick_spice",
+   "spice": 3797.307758479029
+  },
+  {
+   "x": 20,
+   "y": 49,
+   "terrain": "thick_spice",
+   "spice": 2716.294838853789
+  },
+  {
+   "x": 21,
+   "y": 49,
+   "terrain": "thick_spice",
+   "spice": 2218.679656478167
+  },
+  {
+   "x": 22,
+   "y": 49,
+   "terrain": "thick_spice",
+   "spice": 3201.608495240625
+  },
+  {
+   "x": 23,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 2246.1220926613382
+  },
+  {
+   "x": 24,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 1664.6504427291954
+  },
+  {
+   "x": 25,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 1683.586952947413
+  },
+  {
+   "x": 29,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 1649.1671942609585
+  },
+  {
+   "x": 30,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 951.1205138249097
+  },
+  {
+   "x": 31,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 1234.170996663137
+  },
+  {
+   "x": 32,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 1384.3523229028406
+  },
+  {
+   "x": 33,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 2938.3739326278155
+  },
+  {
+   "x": 34,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 2774.0865580283903
+  },
+  {
+   "x": 35,
+   "y": 49,
+   "terrain": "spice",
+   "spice": 2540.719358120226
+  },
+  {
+   "x": 36,
+   "y": 49,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 49,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 49,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 49,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 49,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 49,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 15,
+   "y": 50,
+   "terrain": "spice",
+   "spice": 825.850725041741
+  },
+  {
+   "x": 16,
+   "y": 50,
+   "terrain": "spice",
+   "spice": 1230.6381408558786
+  },
+  {
+   "x": 17,
+   "y": 50,
+   "terrain": "spice",
+   "spice": 2964.7185766345133
+  },
+  {
+   "x": 18,
+   "y": 50,
+   "terrain": "thick_spice",
+   "spice": 3308.940861836753
+  },
+  {
+   "x": 19,
+   "y": 50,
+   "terrain": "thick_spice",
+   "spice": 2688.1375831414775
+  },
+  {
+   "x": 20,
+   "y": 50,
+   "terrain": "thick_spice",
+   "spice": 5891.519637493879
+  },
+  {
+   "x": 21,
+   "y": 50,
+   "terrain": "thick_spice",
+   "spice": 4369.090581499204
+  },
+  {
+   "x": 22,
+   "y": 50,
+   "terrain": "thick_spice",
+   "spice": 4957.756061093702
+  },
+  {
+   "x": 23,
+   "y": 50,
+   "terrain": "spice",
+   "spice": 974.3777341733712
+  },
+  {
+   "x": 24,
+   "y": 50,
+   "terrain": "spice",
+   "spice": 1233.785536387661
+  },
+  {
+   "x": 25,
+   "y": 50,
+   "terrain": "spice",
+   "spice": 2261.373061303173
+  },
+  {
+   "x": 26,
+   "y": 50,
+   "terrain": "spice",
+   "spice": 760.8430032240685
+  },
+  {
+   "x": 27,
+   "y": 50,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 50,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 50,
+   "terrain": "spice",
+   "spice": 2836.264712823097
+  },
+  {
+   "x": 32,
+   "y": 50,
+   "terrain": "spice",
+   "spice": 2653.402819686268
+  },
+  {
+   "x": 33,
+   "y": 50,
+   "terrain": "spice",
+   "spice": 1357.8777345866747
+  },
+  {
+   "x": 38,
+   "y": 50,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 50,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 50,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 15,
+   "y": 51,
+   "terrain": "spice",
+   "spice": 1704.8010761153103
+  },
+  {
+   "x": 16,
+   "y": 51,
+   "terrain": "spice",
+   "spice": 2131.9340355465147
+  },
+  {
+   "x": 17,
+   "y": 51,
+   "terrain": "spice",
+   "spice": 2637.5489756620723
+  },
+  {
+   "x": 18,
+   "y": 51,
+   "terrain": "thick_spice",
+   "spice": 2561.641486930809
+  },
+  {
+   "x": 19,
+   "y": 51,
+   "terrain": "thick_spice",
+   "spice": 2114.3619371066525
+  },
+  {
+   "x": 20,
+   "y": 51,
+   "terrain": "thick_spice",
+   "spice": 3498.2801468560256
+  },
+  {
+   "x": 21,
+   "y": 51,
+   "terrain": "thick_spice",
+   "spice": 1517.093596996408
+  },
+  {
+   "x": 22,
+   "y": 51,
+   "terrain": "thick_spice",
+   "spice": 3742.889488440975
+  },
+  {
+   "x": 23,
+   "y": 51,
+   "terrain": "spice",
+   "spice": 1535.73317345997
+  },
+  {
+   "x": 24,
+   "y": 51,
+   "terrain": "spice",
+   "spice": 1595.6956761869837
+  },
+  {
+   "x": 25,
+   "y": 51,
+   "terrain": "spice",
+   "spice": 1970.432295177249
+  },
+  {
+   "x": 26,
+   "y": 51,
+   "terrain": "spice",
+   "spice": 1572.474402768841
+  },
+  {
+   "x": 27,
+   "y": 51,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 51,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 51,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 51,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 51,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 51,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 15,
+   "y": 52,
+   "terrain": "spice",
+   "spice": 2804.666475747507
+  },
+  {
+   "x": 16,
+   "y": 52,
+   "terrain": "spice",
+   "spice": 1711.6833411938048
+  },
+  {
+   "x": 17,
+   "y": 52,
+   "terrain": "spice",
+   "spice": 1006.9004716905487
+  },
+  {
+   "x": 18,
+   "y": 52,
+   "terrain": "spice",
+   "spice": 1157.8167325460704
+  },
+  {
+   "x": 19,
+   "y": 52,
+   "terrain": "thick_spice",
+   "spice": 2703.577746229551
+  },
+  {
+   "x": 20,
+   "y": 52,
+   "terrain": "thick_spice",
+   "spice": 2910.948225325089
+  },
+  {
+   "x": 21,
+   "y": 52,
+   "terrain": "thick_spice",
+   "spice": 1416.5183621323476
+  },
+  {
+   "x": 22,
+   "y": 52,
+   "terrain": "spice",
+   "spice": 1545.430665812435
+  },
+  {
+   "x": 23,
+   "y": 52,
+   "terrain": "spice",
+   "spice": 1023.5152446076061
+  },
+  {
+   "x": 24,
+   "y": 52,
+   "terrain": "spice",
+   "spice": 753.7184209378304
+  },
+  {
+   "x": 25,
+   "y": 52,
+   "terrain": "spice",
+   "spice": 1799.4576925493823
+  },
+  {
+   "x": 26,
+   "y": 52,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 52,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 52,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 52,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 52,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 52,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 52,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 52,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 52,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 52,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 50,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 52,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 16,
+   "y": 53,
+   "terrain": "spice",
+   "spice": 1825.2632994564228
+  },
+  {
+   "x": 17,
+   "y": 53,
+   "terrain": "spice",
+   "spice": 556.0816920928225
+  },
+  {
+   "x": 18,
+   "y": 53,
+   "terrain": "spice",
+   "spice": 862.3111373529046
+  },
+  {
+   "x": 19,
+   "y": 53,
+   "terrain": "spice",
+   "spice": 2982.7225272553746
+  },
+  {
+   "x": 20,
+   "y": 53,
+   "terrain": "spice",
+   "spice": 2098.4398403976693
+  },
+  {
+   "x": 21,
+   "y": 53,
+   "terrain": "spice",
+   "spice": 2050.8458363673135
+  },
+  {
+   "x": 22,
+   "y": 53,
+   "terrain": "spice",
+   "spice": 1620.4003115190048
+  },
+  {
+   "x": 23,
+   "y": 53,
+   "terrain": "spice",
+   "spice": 1406.3305352515872
+  },
+  {
+   "x": 24,
+   "y": 53,
+   "terrain": "spice",
+   "spice": 2226.837993699038
+  },
+  {
+   "x": 25,
+   "y": 53,
+   "terrain": "spice",
+   "spice": 2227.5283847784613
+  },
+  {
+   "x": 26,
+   "y": 53,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 53,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 53,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 53,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 53,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 53,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 53,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 53,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 53,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 53,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 50,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 53,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 15,
+   "y": 54,
+   "terrain": "spice",
+   "spice": 2522.6179947524965
+  },
+  {
+   "x": 17,
+   "y": 54,
+   "terrain": "spice",
+   "spice": 1382.0696905568552
+  },
+  {
+   "x": 18,
+   "y": 54,
+   "terrain": "spice",
+   "spice": 2358.0460421261564
+  },
+  {
+   "x": 19,
+   "y": 54,
+   "terrain": "spice",
+   "spice": 886.8582070715565
+  },
+  {
+   "x": 20,
+   "y": 54,
+   "terrain": "spice",
+   "spice": 2814.069389491804
+  },
+  {
+   "x": 21,
+   "y": 54,
+   "terrain": "spice",
+   "spice": 2022.8846443493971
+  },
+  {
+   "x": 22,
+   "y": 54,
+   "terrain": "spice",
+   "spice": 2295.56111676843
+  },
+  {
+   "x": 23,
+   "y": 54,
+   "terrain": "spice",
+   "spice": 1342.307424739562
+  },
+  {
+   "x": 24,
+   "y": 54,
+   "terrain": "spice",
+   "spice": 2271.186112753053
+  },
+  {
+   "x": 25,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 54,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 41,
+   "y": 54,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 42,
+   "y": 54,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 54,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 54,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 54,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 50,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 54,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 55,
+   "terrain": "spice",
+   "spice": 1934.936640365392
+  },
+  {
+   "x": 19,
+   "y": 55,
+   "terrain": "spice",
+   "spice": 1331.7387241480994
+  },
+  {
+   "x": 20,
+   "y": 55,
+   "terrain": "spice",
+   "spice": 1639.4905681592966
+  },
+  {
+   "x": 21,
+   "y": 55,
+   "terrain": "spice",
+   "spice": 2235.555068451148
+  },
+  {
+   "x": 22,
+   "y": 55,
+   "terrain": "spice",
+   "spice": 2415.101631874592
+  },
+  {
+   "x": 23,
+   "y": 55,
+   "terrain": "spice",
+   "spice": 549.9265072271149
+  },
+  {
+   "x": 24,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 55,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 55,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 55,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 55,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 50,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 55,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 18,
+   "y": 56,
+   "terrain": "spice",
+   "spice": 2982.059621750459
+  },
+  {
+   "x": 20,
+   "y": 56,
+   "terrain": "spice",
+   "spice": 2673.847751067084
+  },
+  {
+   "x": 23,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 24,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 25,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 56,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 43,
+   "y": 56,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 44,
+   "y": 56,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 45,
+   "y": 56,
+   "terrain": "mountain",
+   "spice": 0.0
+  },
+  {
+   "x": 50,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 56,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 26,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 27,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 57,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 50,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 57,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 58,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 50,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 58,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 28,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 40,
+   "y": 59,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 50,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 59,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 60,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 50,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 60,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 61,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 50,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 51,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 52,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 53,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 54,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 55,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 56,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 57,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 58,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 59,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 60,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 61,
+   "y": 61,
+   "terrain": "rock",
+   "spice": 0.0
+  },
+  {
+   "x": 29,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 39,
+   "y": 62,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 30,
+   "y": 63,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 31,
+   "y": 63,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 32,
+   "y": 63,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 33,
+   "y": 63,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 34,
+   "y": 63,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 35,
+   "y": 63,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 36,
+   "y": 63,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 37,
+   "y": 63,
+   "terrain": "dunes",
+   "spice": 0.0
+  },
+  {
+   "x": 38,
+   "y": 63,
+   "terrain": "dunes",
+   "spice": 0.0
+  }
+ ]
+}
